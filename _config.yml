@@ -1,0 +1,21 @@
+# Website settings
+baseurl: "/"
+base_url: "https://www.akkoorath.org"
+url: "https://www.akkoorath.org"
+domain: "www.akkoorath.org"
+production: true
+
+# Jekyll build settings
+paginate: 6
+paginate_path: "/writing/page:num"
+permalink: "/writing/:year/:month/:day/:title/"
+sass:
+  sass_dir: "/assets/css"
+  style: :compressed  
+highlighter: rouge
+timezone: 'Europe/Berlin'
+
+# Plugins (GitHub Pages only support a few)
+plugins:
+  - jekyll-redirect-from
+  - rouge
